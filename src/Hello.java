@@ -49,6 +49,18 @@ public class Hello {
             System.out.println("Either or both of the conditions are true");
         }
 
+
+        int newValue = 50;
+        if (newValue == 50) {
+            System.out.println("This is true");
+        }
+
+        boolean isCar = false;
+        if (!isCar) {
+            System.out.println("This is not supposed to happen");
+        }
+
+
     // przyklad kiedu nie spelniaja sie tych dwa kryteria topScore ne jest >95 i nie jest <90 mamu 2 false i nie printuje
 
 //        int topScore = 80;
