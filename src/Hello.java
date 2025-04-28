@@ -26,7 +26,7 @@ public class Hello {
 //            System.out.println("You got the high score!");
 //        }
 
-    // jakszo umowa >=100 printyje You....
+        // jakszo umowa >=100 printyje You....
 //        int topScore = 100;
 //        if (topScore >= 100) {
 //            System.out.println("You got the high score!");
@@ -60,6 +60,17 @@ public class Hello {
             System.out.println("This is not supposed to happen");
         }
 
+        String makeOfCar = "Volkswagen";
+        boolean isDomestic = makeOfCar == "Volkswagen" ? false : true;
+
+        if (isDomestic) {
+            System.out.println("This car is domestic to our country");
+        }
+
+        String s = (isDomestic) ? "This car is domestic" : "This car is not domestic";
+        System.out.println(s);
+    }
+
 
     // przyklad kiedu nie spelniaja sie tych dwa kryteria topScore ne jest >95 i nie jest <90 mamu 2 false i nie printuje
 
@@ -76,4 +87,4 @@ public class Hello {
 //            System.out.println("Either or both of the conditions are true");
 //        }
     }
-}
+
